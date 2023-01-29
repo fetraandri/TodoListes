@@ -1,0 +1,13 @@
+.todo{
+    background-color:brown; 
+    margin-right: 10px;
+  }
+  .done{
+    background-color:darkslategray;
+    margin-left: 10px;
+  }
+  .full{
+   display: flex;
+   justify-content: center  ;
+  }
+  
