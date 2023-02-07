@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToDoList component ajout d"un tache dans la nouvelle liste 1`] = `
+<div
+  className="full"
+>
+  <div
+    className="todo"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <h1>
+        to do:
+      </h1>
+      <input
+        onChange={[Function]}
+        placeholder="Nouvelle tâche"
+        type="text"
+        value=""
+      />
+      <button
+        type="submit"
+      >
+        Ajouter
+      </button>
+    </form>
+    <div />
+  </div>
+  <div
+    className="done"
+  >
+    <h1>
+      Done: 
+    </h1>
+    <ul />
+  </div>
+</div>
+`;
+
+exports[`ToDoList component it matches the snapshot 1`] = `
+<div
+  className="full"
+>
+  <div
+    className="todo"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <h1>
+        to do:
+      </h1>
+      <input
+        onChange={[Function]}
+        placeholder="Nouvelle tâche"
+        type="text"
+        value=""
+      />
+      <button
+        type="submit"
+      >
+        Ajouter
+      </button>
+    </form>
+    <div />
+  </div>
+  <div
+    className="done"
+  >
+    <h1>
+      Done: 
+    </h1>
+    <ul />
+  </div>
+</div>
+`;
+
+exports[`ToDoList component should match the snapshot 1`] = `
+<task
+  task={
+    Object {
+      "done": false,
+      "id": 1,
+      "name": "Test task",
+    }
+  }
+/>
+`;
